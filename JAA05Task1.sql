@@ -2,12 +2,12 @@ SELECT '' AS 'Ji Hong Ahn';
 SELECT '' AS 'PROG2220: Section #2';
 SELECT '' AS 'Assignment 5: Task 1';
 
-SELECT SYSDATE() AS "Current System Date";
+SELECT SYSDATE() AS 'Current System Date';
 
 USE my_guitar_shop;
 
-SELECT "";
-SELECT "" AS "*** Task 1, Q1. MGS Exercise 8-1 [4 points] ***";
+SELECT '';
+SELECT '' AS '*** Task 1, Q1. MGS Exercise 8-1 [4 points] ***';
 
 SELECT FORMAT(list_price, 2) AS price_format,
 	CAST(discount_percent AS SIGNED) AS discount_cast,
@@ -15,8 +15,8 @@ SELECT FORMAT(list_price, 2) AS price_format,
     DATE_FORMAT(date_added, '%m-%d') AS month_day_added
 FROM products;
 
-SELECT "";
-SELECT "" AS "*** Task 1, Q2. MGS Exercise 9-2 [4 points] ***";
+SELECT '';
+SELECT '' AS '*** Task 1, Q2. MGS Exercise 9-2 [4 points] ***';
 
 SELECT order_date,
 	DATE_FORMAT(order_date, '%Y') AS order_year,
@@ -26,8 +26,8 @@ SELECT order_date,
 FROM orders
 ORDER BY order_date;
 
-SELECT "";
-SELECT "" AS "*** Task 1, Q3. MGS Exercise 9-3 [5 points] ***";
+SELECT '';
+SELECT '' AS '*** Task 1, Q3. MGS Exercise 9-3 [5 points] ***';
 
 SELECT card_number,
 	CHAR_LENGTH(card_number) AS card_number_length,
@@ -35,8 +35,8 @@ SELECT card_number,
     CONCAT('XXXX-XXXX-XXXX-', RIGHT(card_number, 4)) AS formatted_number
 FROM orders;
 
-SELECT "";
-SELECT "" AS "*** Task 1, Q4. MGS Exercise 9-4 [5 points] ***";
+SELECT '';
+SELECT '' AS '*** Task 1, Q4. MGS Exercise 9-4 [5 points] ***';
 
 SELECT order_id,
 	order_date,

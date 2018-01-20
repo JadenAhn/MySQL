@@ -6,12 +6,12 @@ SELECT '' AS 'Ji Hong Ahn';
 SELECT '' AS 'PROG2220: Section #2';
 SELECT '' AS 'Assignment 3: Task 2';
 
-SELECT SYSDATE() AS "Current System Date";
+SELECT SYSDATE() AS 'Current System Date';
 
 USE my_guitar_shop;
 
-SELECT "";
-SELECT "" AS "*** Task 2, Q1. MGS Exercise 5-1 [8 points] ***";
+SELECT '';
+SELECT '' AS '*** Task 2, Q1. MGS Exercise 5-1 [8 points] ***';
 
 INSERT INTO categories (category_name)
 VALUE ('Wind');
@@ -19,7 +19,7 @@ VALUE ('Wind');
 SELECT ROW_COUNT() AS 'INSERT: rows affected';
 
 UPDATE categories
-SET category_name = "String"
+SET category_name = 'String'
 WHERE category_id = LAST_INSERT_ID();
 
 SELECT ROW_COUNT() AS 'UPDATE: rows affected';
@@ -29,8 +29,8 @@ WHERE category_id = LAST_INSERT_ID();
 
 SELECT ROW_COUNT() AS 'DELETE: rows affected';
 
-SELECT "";
-SELECT "" AS "*** Task 2, Q2. MGS Exercise 5-4 [6 points] ***";
+SELECT '';
+SELECT '' AS '*** Task 2, Q2. MGS Exercise 5-4 [6 points] ***';
 
 INSERT INTO products
 (product_id, category_id, product_code, product_name, description, list_price, discount_percent, date_added)
@@ -45,8 +45,8 @@ WHERE product_id = LAST_INSERT_ID();
 
 SELECT ROW_COUNT() AS 'UPDATE: rows affected';
 
-SELECT "";
-SELECT "" AS "*** Task 2, Q3. MGS Exercise 5-7 [6 points] ***";
+SELECT '';
+SELECT '' AS '*** Task 2, Q3. MGS Exercise 5-7 [6 points] ***';
 
 INSERT INTO customers
 (email_address, password, first_name, last_name)
